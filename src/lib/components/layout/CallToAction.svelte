@@ -50,11 +50,14 @@
 
 	// Props
 	const {
-		title = "Get started today",
-		subtitle = "Join now",
-		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
-		imageSrc = "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-		callsToAction = [cta],
+		title = "The future of healthcare staffing is remote",
+		subtitle = "Doctors are in short supply. We fix that.",
+		description = "Asterix Health connects UK providers to a dedicated workforce of fully qualified doctors working remotely—at up to 90% lower cost. Fill clinical gaps, reduce spend, and expand your team’s capacity with on-demand access to Asterix-verified clinicians. Ready to solve staffing for good?",
+		imageSrc = "/generated/image-a-remote-doctor-in-a-cozy-well-lit-home-.webp",
+		callsToAction = [
+    { href: '/contact', label: 'Talk to our team', variant: 'primary' },
+    { href: '/get-started', label: 'Start your pilot', variant: 'secondary' }
+  ],
 		...rest
 	}: {
 		title?: string;

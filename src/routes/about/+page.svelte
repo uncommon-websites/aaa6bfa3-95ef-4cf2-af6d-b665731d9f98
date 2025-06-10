@@ -26,18 +26,17 @@
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+	title="Remote doctors for UK healthcare"
+	subtitle="Cut staffing costs by 60%. NHS-approved. Fast access to top clinical talent."
+	imageSrc="/mockups/airport-screen-1749573264662.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"The UK is running out of doctors. Demand is growing, waitlists are getting longer, and traditional staffing models can’t keep up—too slow, too expensive, too rigid. Asterix Health was born from this crisis. Our founders, Julian Titz and Max Thilo, saw an opportunity to rethink how care is delivered by tapping into a qualified, global workforce—one that had never been possible to access due to outdated systems and regulatory bottlenecks.",
+		"With new NHS routes now open, we’ve built the first compliance-approved pathway to bring in remote clinicians who are fully registered, postgrad qualified, and ready to work—wherever they live. We start with clinical admin but go much further: referrals, medication reviews, blood tests, consultations and full GP support—all delivered by doctors integrated directly into your existing systems. They’re cost-effective (saving providers up to 60%), schedule-flexible, and workflow-ready from day one.",
+		"We’re just getting started. Our first pilots launch this spring, with £45k signed and over £12m in pipeline ARR. We’re forecasting £3.5m in ARR in the next year with a vision for 1,000+ doctors across UK healthcare. The goal is simple: build the easiest way for providers to access care capacity—without the cost, the wait, or the burnout."
 	]}
 />
 
@@ -46,53 +45,40 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our team."
+  subtitle="Your partners in healthcare innovation."
+  stakeholders={[
+    {
+      name: "Julian Titz",
+      position: "Co-founder & CEO",
+      bio: "Seasoned founder. Built a consumer finance app to 50,000 users and $5M ARR. Founded a next-gen telco and led global regulatory strategy.",
+      image: "/generated/image-a-headshot-portrait-of-a-european-male-f.webp"
+    },
+    {
+      name: "Max Thilo",
+      position: "Co-founder & COO",
+      bio: "Ex-health and trade research for ERG at UK Parliament. Published in-depth study of Singapore's healthcare system.",
+      image: "/generated/image-a-headshot-portrait-of-a-european-male-o.webp"
+    },
+    {
+      name: "Dr. Dan Bunstone",
+      position: "Chief Medical Officer",
+      bio: "Ex-CMO at PushDoctor. 15+ year GP partner. Co-founder at DICE.",
+      image: "/generated/image-a-headshot-portrait-of-a-caucasian-male-.webp"
+    },
+    {
+      name: "Lauren Yates",
+      position: "Head of Quality",
+      bio: "Ex-head of quality at PushDoctor. Governance expert. Led new vertical at BT Health.",
+      image: "/generated/image-a-headshot-portrait-of-a-caucasian-femal.webp"
+    }
+  ]}
 />
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+
+
+
 
 <!-- CTA Section -->
 <CallToAction

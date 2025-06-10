@@ -35,116 +35,119 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Pricing built for healthcare operations",
+		subtitle = "Simple tiers designed to meet your team’s current needs—and grow as care models evolve. All plans include full regulatory oversight, quality assurance, and NHS-grade infrastructure.",
+		tierNames = ["Pilot", "Core", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Included doctors",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
+					Pilot: "Shared doctor",
+					Core: "1–3 dedicated doctors",
+					Enterprise: "5+ dedicated doctors"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Monthly hours",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
+					Pilot: "5–10 hours",
+					Core: "Up to 160 hours",
+					Enterprise: "Unlimited hours"
 				}
 			},
 			{
-				name: "Storage",
+				name: "Eligible services",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
+					Pilot: "Admin",
+					Core: "Admin + consults",
+					Enterprise: "Admin + consults + pathways"
 				}
 			},
 			{
-				name: "API access",
+				name: "Coverage model",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
+					Pilot: "Ad-hoc",
+					Core: "Scheduled coverage",
+					Enterprise: "Custom rota and escalation"
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Consultation delivery",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
+					Pilot: "Optional add-on",
+					Core: "Included",
+					Enterprise: "Included + staffed at scale"
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Account management",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Pilot: "Light support",
+					Core: "Named account manager",
+					Enterprise: "Dedicated operational team"
 				}
 			},
 			{
-				name: "Support response time",
+				name: "Compliance & audit",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
+					Pilot: "Included",
+					Core: "Included + basic reports",
+					Enterprise: "Advanced QA + performance reviews"
 				}
 			},
 			{
-				name: "Dedicated account manager",
+				name: "System integration",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
+					Pilot: "NHS-approved access",
+					Core: "EMIS ∙ SystmOne ∙ NHSMail",
+					Enterprise: "Custom build and workflow mapping"
 				}
 			},
 			{
-				name: "SLA",
+				name: "SLA tracking",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Pilot: "Informal",
+					Core: "Monthly SLA metrics",
+					Enterprise: "Contracted SLA with escalation protocol"
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Pilot",
+				monthlyPrice: 1500,
+				yearlyPrice: 1400, // discount for annual term
+				description: "Start small, test the model and measure results",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"Access to 1 shared doctor",
+					"GP admin services (e.g. blood test review, clinical notes, triage)",
+					"5–10 hours/month service volume",
+					"Full UK registration + NHS-approved systems access",
+					"Light analytics + reporting",
+					"No minimum term • Flexible ramp-up"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Start pilot",
+					href: "/contact?plan=pilot"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Core",
+				monthlyPrice: 3200,
+				yearlyPrice: 3000,
+				description: "Integrated remote capacity for day-to-day operations",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"1–3 dedicated doctors for admin or consultations",
+					"Up to 40 hours/week combined coverage",
+					"Video, phone, triage, coding, medication reviews",
+					"Named account manager",
+					"Monthly SLA + shift planning support",
+					"Advanced analytics dashboard",
+					"EMIS, SystmOne and NHSMail access"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Contact sales",
+					href: "/contact?plan=core"
 				},
 				highlight: true
 			},
@@ -152,19 +155,19 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "Full-scale clinical capacity built into your operating model",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"5+ remote doctors to cover extended hours or multiple sites",
+					"Urgent care, call centre overflow or specialty support",
+					"Unlimited admin and consult volume",
+					"Co-designed clinical pathways and workforce strategy",
+					"Enterprise SLA + ongoing operational review",
+					"Central NHS / ICB procurement onboarding",
+					"End-to-end integration support"
 				],
 				cta: {
-					label: "Contact sales",
-					href: "/contact"
+					label: "Request enterprise demo",
+					href: "/contact?plan=enterprise"
 				}
 			}
 		]

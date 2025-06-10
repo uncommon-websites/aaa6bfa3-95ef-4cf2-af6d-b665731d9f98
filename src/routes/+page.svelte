@@ -57,107 +57,123 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Solving the healthcare staffing crisis"
+	text="Asterix Health connects UK healthcare providers with remote, highly qualified doctors at a fraction of the usual cost. Instantly scale your team, streamline workflows, and deliver better care—without the wait."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Eloise Parry",
+			position: "Service Manager",
+			company: "Brightwell NHS Trust",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Asterix Health cut the time we spent on document review by over 60%. What used to take days now happens in hours—so our clinical team gets back to patient care sooner.",
+			image: "/generated/image-a-female-nhs-service-manager-in-her-40s-.webp"
 		},
 		{
-			name: "John Doe",
+			name: "Musa Adeyemi",
 			position: "Director of Operations",
-			company: "Global Solutions",
+			company: "Unity Primary Group",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"Integrating remote doctors from Asterix was seamless—and every compliance risk was handled up front. It’s made a huge difference in our service reliability.",
+			image: "/generated/image-a-black-male-operations-director-in-his-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Rowena Miles",
+			position: "Clinical Lead",
+			company: "Wellington Health Partners",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"We’ve saved more than £50,000 in three months after switching to Asterix. The quality’s high—and we finally have flexibility, even at scale.",
+			image: "/generated/image-a-middle-aged-white-female-clinical-lead.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why choose Asterix Health?"
+	subtitle="Six reasons providers are making the switch"
 	features={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
-		}
-	]}
+  {
+    title: "NHS-approved clinical workforce",
+    description: "The only remote doctor provider granted written route approval from the NHS. Compliance and safety as standard."
+  },
+  {
+    title: "Significant cost savings",
+    description: "Reduce your staffing costs by up to 60% immediately, with the potential for 90% reduction as you scale."
+  },
+  {
+    title: "High-quality, UK-registered doctors",
+    description: "Every doctor is fully UK registered, postgraduate trained, and vetted for experience and clinical standards."
+  },
+  {
+    title: "Flexible, seamless integration",
+    description: "Doctors can join part time or full time, plugging directly into your workflows and approved NHS systems—no learning curve."
+  },
+  {
+    title: "Fast setup & pilot launches",
+    description: "Go live in days, not months. First pilots launch April; £12m ARR pipeline and rapid results proven."
+  },
+  {
+    title: "Comprehensive clinical support",
+    description: "From triage and admin to live consultations and clinical coding, our doctors handle essential NHS tasks remotely."
+  }
+]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use Cases"
+  subtitle="Real-world applications for your business needs"
+  useCases={[
+    {
+      title: "Free your team from admin overload",
+      description:
+        "Strained GP teams are buried in clinical documents and admin. Let our doctors handle blood test results, document reviews, and medication coding remotely—seamlessly plugging into your workflow.",
+      image: "/generated/image-a-group-of-remote-doctors-in-a-cozy-home.webp",
+      link: {
+        href: "/use-cases/admin-relief",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Extend care beyond 9–5",
+      description:
+        "Practices struggle to offer consultations outside typical hours. Our remote doctors deliver high-quality phone and video consultations, reducing pressure without adding headcount.",
+      image: "/generated/image-a-healthcare-team-engaged-in-a-video-cal.webp",
+      link: {
+        href: "/use-cases/flexible-support",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Keep patients off the waitlist radar",
+      description:
+        "Patients wait weeks or months for specialist care—turning manageable issues into crises. Asterix doctors offer proactive support while patients wait, helping reduce risk and improve outcomes.",
+      image: "/generated/image-a-group-of-healthcare-staff-celebrating-.webp",
+      link: {
+        href: "/use-cases/waitlist-support",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="End your doctor staffing crisis—without blowing your budget"
+  subtitle="Get instant access to fully UK-registered, remote doctors at a fraction of the cost—on NHS-approved systems."
+  description="Flexible, high-quality care with up to 90% cost savings, fully integrated into your workflow. Proven, compliant, and ready to scale."
+  imageSrc="/generated/image-a-cheerful-healthcare-administrator-with.webp"
+  callsToAction={[
+    {
+      href: "/contact",
+      label: "Start your pilot",
+      variant: "primary"
+    },
+    {
+      href: "/how-it-works",
+      label: "How it works",
+      variant: "secondary"
+    }
+  ]}
+/>
