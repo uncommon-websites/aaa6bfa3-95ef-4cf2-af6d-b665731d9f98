@@ -7,16 +7,54 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={false}
+  title="Instant access to trusted doctors, anywhere"
+  subtitle="Asterix Health connects UK healthcare providers with remote, highly qualified doctors—quickly, flexibly, and with seamless integration into clinical workflows."
+  customers={[
+    {
+      name: "Dr. Samantha Reed",
+      position: "GP partner, St Mary's NHS Trust",
+      imageSrc: "/generated/image-a-white-female-healthcare-administrator-.webp",
+      quote: "Reliable support that fits straight into our team’s workflow."
+    },
+    {
+      name: "James Osei",
+      position: "Head of operations, West Midlands Primary Care Group",
+      imageSrc: "/generated/image-a-black-british-male-head-of-operations-.webp",
+      quote: "Flexible clinical support that actually saves us time and money."
+    },
+    {
+      name: "Amir Rahman",
+      position: "NHS service manager, North Kent ICS",
+      imageSrc: "/generated/image-a-south-asian-female-nhs-service-manager.webp",
+      quote: "The doctors are excellent. Setup was fast and smooth."
+    },
+    {
+      name: "Helen Morris",
+      position: "Clinical lead, Careflow Health",
+      imageSrc: "/generated/image-a-white-female-healthcare-administrator-.webp",
+      quote: "Smart solution to a real workforce problem. Our clinicians love it."
+    },
+    {
+      name: "Raj Patel",
+      position: "Medical director, South London Health Trust",
+      imageSrc: "/generated/image-an-east-asian-male-medical-director-in-a.webp",
+      quote: "Finally—trusted, qualified doctors available when we need them."
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		"https://logo.clearbit.com/circlehealthgroup.co.uk",
+		"https://logo.clearbit.com/bupa.co.uk",
+		"https://logo.clearbit.com/spirehealthcare.com"
+	]}
+/>
 
 <Summary
 	generating
